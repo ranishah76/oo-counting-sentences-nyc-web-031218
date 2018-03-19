@@ -29,7 +29,7 @@ end
 
 def count_sentences
   arr = self.split(/[.?!]/).delete_if {|a| a.length < 2}
-  arr.count
+  arr.size
 end
 
 end
