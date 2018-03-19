@@ -28,7 +28,8 @@ def exclamation?
 end
 
 def count_sentences
-  self.split(/[.?!]/).uniq.length
+  self.split(/[.?!]/)
+  binding.pry
 end
 
 end
