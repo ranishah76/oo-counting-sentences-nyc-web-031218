@@ -29,6 +29,7 @@ end
 
 def count_sentences
   self.split(".?!").length
-end 
+  binding.pry
+end
 
 end
