@@ -28,8 +28,8 @@ def exclamation?
 end
 
 def count_sentences
-  self.split(/[.?!]/)
-  binding.pry
+  arr = self.split(/[.?!]/).delete_if {|a| a.size < 2}
+  arr.length
 end
 
 end
