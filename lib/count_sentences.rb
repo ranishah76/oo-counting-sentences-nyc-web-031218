@@ -27,4 +27,8 @@ def exclamation?
   end
 end
 
+def count_sentences
+  self.split(".?!").length
+end 
+
 end
